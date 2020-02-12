@@ -1,5 +1,5 @@
 # cotacoes-nodejs
-Criação de projeto para estudo com a utilização de nodejs,  Express, hbs e etc
+Projeto de pesquisa de cotação utilizando api do [World Trading Data](https://www.worldtradingdata.com) com a utilização de Nodejs, Express e hbs.
 
 ## Para executar é necessário configurar as dependências:
 `npm i`
