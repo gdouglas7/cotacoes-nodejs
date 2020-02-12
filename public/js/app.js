@@ -25,7 +25,7 @@ if(cotacoesForm){
             return;
         }
 
-        fetch(`http://localhost:3000/cotacoes?ativo=${ativo}`).then((response) => {
+        fetch(`/cotacoes?ativo=${ativo}`).then((response) => {
             response.json().then((data) => {
                 if(data.error){
                     mainMsg.innerText = `alguma coisa deu errado`
